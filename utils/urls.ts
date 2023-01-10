@@ -1,6 +1,7 @@
 export const URLS = {
   NAVIGATE: {
     HOME: "/",
-    THREADS: "/threads",
+    ARTICLES: "/articles",
+    ARTICLE_PAGE: (id: string) => `/articles/${id}`,
   },
 };
